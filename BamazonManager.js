@@ -202,8 +202,15 @@ function newProduct() {
 	var priceNew = answer.cost;
 	var quantNew = answer.quant;
 
-	connection.query('INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ('+prodNew+', '+depNew+', '+priceNew+', '+quantNew+');');
-	console.log("Got it!");
+	var sql = "INSERT INTO Products (name, email, n) VALUES ?";
+	connection.query('INSERT INTO Products SET ?', {
+		ProductName: prodNew,
+		DepartmentName: depNew,
+		Price: priceNew,
+		StockQuantity: quantNew
+	}, function(err, res) { 
+		console.log("Got it!");
+	});
 	showItems();
 	});
 }
