@@ -170,21 +170,21 @@ function newProduct() {
 
 	inquirer.prompt([
 	{
-		name: "product",
-		type: "input",
-		message: "What product do you want to add?"
-
-	},
-	{
 		name: "dep",
 		type: "list",
 		choices: deplist,
-		message: "What department is it in?"
+		message: "What department is the new product in?"
+	},
+	{
+		name: "product",
+		type: "input",
+		message: "What is the new product?"
+
 	},
 	{
 		name: "cost",
 		type: "input",
-		message: "How much ($) does it cost?",
+		message: "How much ($) does the product cost?",
 		validate: function(value) {
             if (isNaN(value) == false) {
                 return true;
