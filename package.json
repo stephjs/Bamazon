@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "3 different versions for customers, managers and executives",
+  "main": "customer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephorpilla/Bamazon.git"
+  },
+  "author": "Steph Orpilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephorpilla/Bamazon/issues"
+  },
+  "homepage": "https://github.com/stephorpilla/Bamazon#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "console.table": "^0.7.0",
+    "inquirer": "^1.2.2",
+    "mysql": "^2.11.1"
+  }
+}
