@@ -1,6 +1,6 @@
 CREATE database Bamazon;
 
-USE Bamazon
+USE Bamazon;
 
 CREATE TABLE Products (
   ProductName varchar(50) DEFAULT NULL,
@@ -11,3 +11,11 @@ CREATE TABLE Products (
   ProductSales int(11) DEFAULT 0,
   PRIMARY KEY (ItemID)
 );
+
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES 
+("puppy", "Pets", 100, 5),
+("kitten", "Pets", 75, 4),
+("tent", "Outdoors", 150, 40),
+("sleeping bag", "Outdoors", 50, 100),
+("dress", "Clothing", 40, 150),
+("shoes", "Clothing", 30, 95);
