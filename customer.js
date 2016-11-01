@@ -113,7 +113,7 @@ function buyStuff(){
 			    }).then(function(answer) {
 			        if (answer.purchaseCheck == true) {
 			        	if (numUnits == 1){
-			        		var statement = "Great! Here is your numUnits"+numUnits+" "+chosen.ProductName+".";
+			        		var statement = "Great! Here is your "+numUnits+" "+chosen.ProductName+".";
 			        		console.log(statement.blue);
 			        	}else {
 			        		var statement = "Great! Here are your "+numUnits+" "+chosen.ProductName+"s.";
