@@ -36,7 +36,7 @@ Then use your text editor of choice to update each file (customer.js, manager.js
 
 - After a purchase the Products database is updated to reflect new stock quantities.
 
-- - ![screen shot 2016-10-31 at 7 42 59 pm](https://cloud.githubusercontent.com/assets/18673328/19878115/4cbd71dc-9fa2-11e6-8897-1513a173ea2e.png)
+    - ![screen shot 2016-10-31 at 7 42 59 pm](https://cloud.githubusercontent.com/assets/18673328/19878115/4cbd71dc-9fa2-11e6-8897-1513a173ea2e.png)
 
 # Manager
 
@@ -75,3 +75,5 @@ Run `node exec.js` to start the executive facing Bamazon app. Executives can do 
     - Name the new department and specify the overhead cost. Total sales starts at $0 and total profit will be negative.
 
     - Now managers can create new products in this department and then customers will be able to buy the products.
+
+    - ![screen shot 2016-10-31 at 9 34 18 pm](https://cloud.githubusercontent.com/assets/18673328/19879620/dc6ccdf0-9fb1-11e6-8b29-34ad2fd6855e.png)
